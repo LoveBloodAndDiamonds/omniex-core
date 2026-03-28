@@ -1,0 +1,18 @@
+{
+  "include": ["omniex_core"],
+  "exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    "**/.venv",
+    "**/.git",
+    "**/.idea",
+    "**/omniex_core/mexc/_spot_ws_proto",
+    "tests",
+  ],
+  "venvPath": ".",
+  "venv": ".venv",
+  "reportMissingImports": true,
+  "reportMissingTypeStubs": false,
+  "pythonVersion": "3.13",
+  "typeCheckingMode": "basic",
+}
